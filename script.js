@@ -8,10 +8,10 @@ const calci = () => {
   // 1. Find Total?
   let totalGrades =
     parseFloat(wd) + parseFloat(maths) + parseFloat(comp) + parseFloat(phy);
-  alert(totalGrades);
+    alert(`total: ${ totalGrades }`);
   // 2. Find Percentage?
   let perc = (totalGrades / 400) * 100;
-  alert(perc);
+  alert(`Percentage: ${perc}%`);
 
   //   debugger;
 
